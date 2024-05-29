@@ -1,132 +1,79 @@
-.box {
-    border: 50px solid #8e44ad;
-    width: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
-  }
-  
-  .green {
-    border: 50px solid #e67e22;
-    width: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    margin-bottom: 20px;
-  
-    /* //visibility: hidden;
-    //display: none;  비교 */
-  }
-  
-  .blue {
-    border: 50px solid #2c3e50;
-    width: 200px;
-    padding-left: 50px;
-    padding-right: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  
-  
+body{
+  display: contents;
+}
 
-  .box {
-    border: 50px solid red;
-    padding: 50px;
-    width: 200px;
-    margin-bottom: 20px;
-  }
+.navbar{
+  float:right;
+  margin:20px;
   
-  .green {
-    border-color: green;
-    display: none;
-    /* visibility: hidden; */
-  }
-  
-  .blue {
-    border-color: blue;
-  }
-  h1 {
-    color: #9b59b6;
-  }
-  
-  h1::before {
-    content: "TOPIC:";
-  }
-  
-  p {
-    font-size: 16px;
-  
-    font-style: italic;
-    font-family: Verdana;
-  }
-  
-  .sub-header {
-    color: #2980b9;
-  }
-  
-  p::first-letter {
-    font-size: 200%;
-    color: #2980b9;
-  
-  }
-  
-  body {
-    padding-left: 10%;
-  
-  }
-  
-  h1:frist-child{
-    text-align: center;
-  
-  }
-  
-  .challenge2 {
-    background-color: #fff;
-  
-    background-image:
-      linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-      linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
-  
-    padding-left: 10%;
-  }
-  
+}
 
-  .challenge2 {
-    background-color: #fff;
-    background-image:
-      linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
-      linear-gradient(#eee .1em, transparent .1em);
-    background-size: 100% 1.2em;
-    padding-left: 10%;
-  }
+.nav-item{
+  text-decoration:none;
+  color:black;
+margin-right: 15px;
   
-  p {
-    font-style: italic;
-    font-size: 16px;
-    font-family: Verdana;
-  }
+}
+
+.nav-item:hover{
+text-decoration: underline;
+}
+
+.main{
+  margin-top: 300px;
+  text-align: center;
+}
+
+.input-area{
+margin-top: 20px; }
+
+.input-box{
+  width: 584px;
+  height: 48px;
+  border-radius: 24px;
+  border: 1px solid #dfe1e5;
+padding-left: 40px;
+padding-right: 40px;
   
-  p::first-letter {
-    font-size: 200%;
-    color: #2980b9
-  }
+}
+
+
+.search-icon{
+  position: relative;
+  left: 40px;
+  color: #9aa0a6;
+}
+
+.moc-icon{
+  position: relative;
+  right: 40px;
+  color: #9aa0a6;
+}
+
+.button-area{
+  padding-top: 18px;
+}
+
+.button-style{
+  height: 36px;
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;  
+  color: #303134;
+  font-family: Apple SD Gothic Neo,arial,sans-serif;
+  font-size: 14px;
+  padding: 0 16px;
+  margin: 11px 4px;
+
   
-  .sub-header {
-    color: #2980b9;
-  }
-  
-  h1 {
-    color: #9b59b6;
-  }
-  
-  h1::before {
-    content: "Topic: ";
-  }
-  
-  h1:first-child {
-    text-align: center;
-  }
+}
+
+.button-style:hover{
+  box-shadow: 0 1px 3px rgba(23,23,23,0.24);
+  background-color: #303134;
+  border: 1px solid #5f6368;
+  color: #e8eaed;
+}
+
+.footer{
+text-align: center;
+}
