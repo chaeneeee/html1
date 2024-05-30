@@ -75,5 +75,31 @@ padding-right: 40px;
 }
 
 .footer{
-text-align: center;
+  position: absolute;
+  bottom: 0px;
+  background: #f2f2f2;
+  width:100%;
+  
+}
+
+.first-line{
+  padding: 15px 30px;
+  border-bottom: 1px solid #dadce0;
+  font-size: 15px;
+  color: rgba(0,0,0,.54);
+}
+
+
+.second-line{
+  padding: 15px 30px;
+  font-size: 15px;
+ color: rgba(0,0,0,.54);
+}
+
+.second-line-second {
+float:right; 
+}
+
+.second-line-2{
+  float: right;
 }
